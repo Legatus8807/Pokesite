@@ -1,0 +1,25 @@
+extends layout 
+
+block content
+    br
+    br
+    img.transparent(src='https://img.pokemondb.net/sprites/home/normal/squirtle.png' alt='https://img.pokemondb.net/sprites/home/normal/squirtle.png')
+    .Pokemons=squirt1
+        p.meta 
+            ul#squirtStats
+                li Name: 
+                    a(href='/pokemon/squirtle') #{Pokemons.name}
+                li Type: 
+                    a(href='/pokemon/squirtle') #{Pokemons.type1}
+                li HP: 
+                    a(href='/pokemon/squirtle') #{Pokemons.hp}
+                li Atack: 
+                    a(href='/pokemon/squirtle') #{Pokemons.atk}
+                li Defense: 
+                    a(href='/pokemon/squirtle') #{Pokemons.def}
+                li Special Attack: 
+                    a(href='/pokemon/squirtle') #{Pokemons.spA}
+                li Special Defense: 
+                    a(href='/pokemon/squirtle') #{Pokemons.spD}
+                li Speed: 
+                    a(href='/pokemon/squirtle') #{Pokemons.spe}

@@ -1,0 +1,25 @@
+extends layout 
+
+block content
+    br
+    br
+    img.transparent(src='https://img.pokemondb.net/sprites/home/normal/charmander.png' alt='https://img.pokemondb.net/sprites/home/normal/charmander.png')
+    .Pokemons=char1
+        p.meta 
+            ul#charStats
+                li Name: 
+                    a(href='/pokemon/charmander' id='charName') #{Pokemons.name}
+                li Type: 
+                    a(href='/pokemon/charmander' id='charType1') #{Pokemons.type1}
+                li HP: 
+                    a(href='/pokemon/charmander') #{Pokemons.hp}
+                li Atack: 
+                    a(href='/pokemon/charmander') #{Pokemons.atk}
+                li Defense: 
+                    a(href='/pokemon/charmander') #{Pokemons.def}
+                li Special Attack: 
+                    a(href='/pokemon/charmander') #{Pokemons.spA}
+                li Special Defense: 
+                    a(href='/pokemon/charmander') #{Pokemons.spD}
+                li Speed: 
+                    a(href='/pokemon/charmander') #{Pokemons.spe}

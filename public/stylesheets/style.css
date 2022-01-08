@@ -1,0 +1,54 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+/*
+.container {
+  width:500px
+}
+
+
+.carousel {
+  width:600px
+}
+*/
+
+a#bulbaAnchor{
+  background-color: #00ff4c;
+  color: #740674;
+}
+
+a#charAnchor {
+  background-color: #ff3c00;
+  color: #e5e90a
+}
+
+a#squirtAnchor {
+  background-color: #0b2ef3e5;
+  color: #0df1f1
+}
+
+ul#bulbaStats {
+  color: #099220
+}
+
+ul#bulbaStats li a{
+  color: #740674
+}
+
+ul#charStats {
+  color: #ff3c00
+}
+
+ul#charStats li a {
+  color: #e5e90a
+}
+
+ul#squirtStats {
+  color: #0b2ef3e5
+}
+
+ul#squirtStats li a {
+  color: #0df1f1
+}

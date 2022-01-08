@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    br
+    br
+    img.transparent(src='https://img.pokemondb.net/sprites/home/normal/bulbasaur.png' alt='https://img.pokemondb.net/sprites/home/normal/bulbasaur.png')
+    .Pokemons=bulba1
+        p.meta
+            ul#bulbaStats
+                li Name: 
+                    a(href='/pokemon/bulbasaur' id='bulbaName') #{Pokemons.name}
+                li Type 1: 
+                    a(href='/pokemon/bulbasaur' id='bulbaType1') #{Pokemons.type1}
+                li Type 2: 
+                    a(href='/pokemon/bulbasaur' id='bulbaType2') #{Pokemons.type2}
+                li HP: 
+                    a(href='/pokemon/bulbasaur' id='bulbaHP') #{Pokemons.hp}
+                li Attack: 
+                    a(href='/pokemon/bulbasaur' id='bulbaAtk') #{Pokemons.atk}
+                li Defense: 
+                    a(href='/pokemon/bulbasaur' id='bulbaDef') #{Pokemons.def}
+                li Special Attack: 
+                    a(href='/pokemon/bulbasaur' id='bulbaSpA') #{Pokemons.spA}
+                li Special Defense: 
+                    a(href='/pokemon/bulbasaur' id='bulbaSpD') #{Pokemons.spD}
+                li Speed: 
+                    a(href='/pokemon/bulbasaur' id='bulbaSpe') #{Pokemons.spe}

@@ -1,0 +1,22 @@
+{
+  "name": "pokesite",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "got": "^11.8.3",
+    "http-errors": "~1.6.3",
+    "mongodb": "^4.2.2",
+    "mongoose": "*",
+    "mongosh": "^1.1.7",
+    "morgan": "~1.9.1",
+    "pokedex-promise-v2": "3.3.2",
+    "pug": "*"
+  }
+}
